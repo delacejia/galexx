@@ -12,13 +12,23 @@
   src: url(BAHNSCHRIFT.TTF);
 }
 
+@font-face {
+  font-family: murecho;
+  src: url(Murecho-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: overpass;
+  src: url(Overpass-VariableFont_wght.ttf);
+}
+
 input {
-  font-family: "bahnschrift", monospace;
+  font-family: "overpass", monospace;
   font-size: 16px;
 }
 
 button{
-  font-family: "bahnschrift", monospace;
+  font-family: "overpass", monospace;
   font-size: 16px;
 }
 
@@ -37,7 +47,7 @@ button{
   width: 85%;
   height: 75px;
   margin: auto;
-  font-family: 'bahnschrift', monospace;
+  font-family: 'overpass', monospace;
 }
 
 .nav h1 {
@@ -76,12 +86,12 @@ a:hover {
 .content {
   width: 750px;
   margin: auto;
-  font-family: 'bahnschrift', monospace;
+  font-family: 'overpass', monospace;
   line-height: 1.5em;
 }
 
 .puzzle {
-  font-family: 'bahnschrift', monospace;
+  font-family: 'overpass', monospace;
   width: auto;
   margin-bottom: 50px;
   font-size: 20px;
@@ -108,7 +118,7 @@ a:hover {
 }
 
 .puzzle pre{
-  font-family: 'bahnschrift', monospace;
+  font-family: 'overpass', monospace;
   text-align: left;
   tab-size: 8;
 }
@@ -118,14 +128,14 @@ a:hover {
   font-style: italic;
   width: 750px;
   margin: auto;
-  font-family: 'bahnschrift', monospace;
+  font-family: 'overpass', monospace;
   line-height: 1.5em;
   font-size: 20px;
 }
 
 .sketch-title {
   width: auto;
-  font-family: 'bahnschrift', monospace;
+  font-family: 'overpass', monospace;
 }
 
 .title-image {

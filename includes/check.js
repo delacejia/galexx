@@ -4,6 +4,7 @@ function check(puzName) {
         lace: "LADYGODIVA",
         read: "CYRANO",
         mun: "SHOOTINGSTAR",
+        mango: "BOBABOY",
     };
     // reset both correct and incorrect answers
     document.getElementById("result").innerHTML = "";
