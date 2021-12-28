@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>The Lacemakers</title>
+    <link rel="stylesheet" href="../includes/main.css">
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+    
+    <script>
+      function tellSecret() {
+        window.alert("  \\o/" + "\r\n" +
+         "   ( )     whee! you found the secret message!"
+        + "\r\n" +"   /\\     (this is not a puzzle)");
+      }
+    </script>
+
+  </head>
+
+  <body>
+    <div class="content">
+
+      <!-- navigation -->
+      <a id="top"></a>
+      <div class="nav">
+        <h3><a href="../index.html">GALEXX BDAY BASH!</a></h3>
+      </div>
+      <div class="nav"><h2>THE LACEMAKERS</h2></div>
+      <div class="flavor-text">“Normalize wearing bralettes as tops!” The phrase is often touted by Galex, 
+        who wears a bralette even to her 21A.501 (Art, Craft, Science) class. It is in this class that she encounters the lacemakers,
+        who exlaim: “those bralettes… barely cover anything. I’m worried how things may <b>pan</b> out for you.”</div>
+      <div class="flavor-text">They take the bralettes from her, and unwind the <b>edges</b> back into threads. 
+        They weave a new pattern to show her who she reminds them of. </div>
+
+      <!-- checking stuff -->
+      <p></p>
+      <script> 
+        const puzzle = "lace" 
+      </script>
+      <input type="text" id="textBox" value="check your answer!">
+      <button onclick="check(puzzle)">check!</button>
+      <p class="check" id = "result"></p>
+      <p class="correct" id = "correctAnswer"><b></b></p>
+      <script src="../includes/check.js"></script>
+
+      <!-- puzzle body -->
+      <div class="puzzle">
+          <img class="puz-image" src="../images/lacemakers.png" alt="various hexagons">
+          <p>The art (craft? science?) of lacemaking:</p>
+          <p>From wikipedia, “Bobbin lace is a lace textile made by braiding and twisting lengths of thread, 
+            which are wound on bobbins to manage them. As the work progresses, the weaving is held in place with pins set in a lace pillow, 
+            the placement of the pins usually determined by a pattern or pricking pinned on the pillow.” </p>
+          <p><b>Twist on the pins and continue straight otherwise!</b></p>
+          <img class="puz-image" src="../images/lace_2.png" alt="lace patterns">
+        </div>
+
+      <h2><a href="../index.html"><b>BACK TO HOME</b></a></h2>
+
+    </div>
+
+    <p id="secret-message" onclick="tellSecret()">click on me!</p>
+  </body>
+</html>

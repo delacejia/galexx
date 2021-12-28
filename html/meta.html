@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>META: Today's Horoscope</title>
+    <link rel="stylesheet" href="../includes/main.css">
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+
+    <script>
+      function tellSecret() {
+        window.alert("  \\o/" + "\r\n" +
+         "   ( )     whee! you found the secret message!"
+        + "\r\n" +"   /\\     (this is not a puzzle)");
+      }
+    </script>
+
+  </head>
+
+  <body>
+    <div class="content">
+
+      <!-- navigation -->
+      <a id="top"></a>
+      <div class="nav">
+        <h3><a href="../index.html">MICHAL'S MBDAY MAYHEM!</a></h3>
+      </div>
+      <div class="nav"><h2>META: TODAY'S HOROSCOPE</h2></div>
+      <div class="flavor-text">“i can’t help it, i’m just a <b>N</b>iquil-ius <b>G</b>ermany <b>C</b>aprisun”</div>
+      <div class="flavor-text">what should michal do on his birthday in the age of aquarius?</div>
+      <p></p>
+
+      <!-- checking stuff -->
+      <script> 
+        const puzzle = "meta" 
+      </script>
+      <input type="text" id="textBox" value="check your answer!">
+      <button onclick="check(puzzle)">check!</button>
+      <p class="check" id = "result"></p>
+      <p class="correct" id = "correctAnswer"><b></b></p>
+      <script src="../includes/check.js"></script>
+
+      <!-- puzzle body -->
+      <div class="puzzle">
+          <p><b>★ 3628:</b> listen to a four-track recording of rain. </p>
+          <p><b>★ 628:</b> don't forget to drink your eight cups of water today!</p>
+          <p><b>✧ 6523:</b> live today like you're the magic mirror from snow white and the seven dwarves</p>
+          <p><b>✧ 2392:</b> beware of omega-3 fatty acids today :0</p>
+          <p><b>★ 7009:</b> run around, stay up til two am, yell out your window, bark at the lady walking her dog, do whatever! the hell ! ya want !!</p>
+          <p><b>★ 5897:</b> you'll encounter anywhere from three to four deer today, don't hesitate to stare them all down.</p>
+          <p><b>✧ 4594:</b> look for cookies in the kitchen today. make sure to eat at least six to seven cookies.</p>
+          <p><b>✧ 2632:</b> you'll find the next one hit wonder on your discover weekly!</p>
+          <p><b>★ 1952:</b> take twelve to fourteen seconds interval breaths. it's possible. </p>
+          <p><b>★ 772:</b> avoid wearing red from the hours of five to six pm.</p>
+          <p><b>✧ 6405:</b> your lucky drink today is minute maid deli-cinq!! hell yeah they might only have it in canada!!!!!</p>
+          <p><b>✧ 7099:</b> you have four lucky spices today: cardamom, cinnamon, nutmeg, and saffron</p>
+        </div>
+      
+      <h2><a href="../index.html"><b>BACK TO HOME</b></a></h2>
+    </div>
+
+    <p id="secret-message" onclick="tellSecret()">click on me!</p>
+  </body>
+</html>

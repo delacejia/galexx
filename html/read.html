@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Boys Who Read 👋</title>
+    <link rel="stylesheet" href="../includes/main.css">
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+    <script>
+      function tellSecret() {
+        window.alert("  \\o/" + "\r\n" +
+         "   ( )     whee! you found the secret message!"
+        + "\r\n" +"   /\\     (this is not a puzzle)");
+      }
+    </script>
+
+  </head>
+
+  <body>
+    <div class="content">
+
+      <!-- navigation -->
+      <a id="top"></a>
+      <div class="nav">
+        <h3><a href="../index.html">GALEXX BDAY BASH!</a></h3>
+      </div>
+      <div class="nav"><h2>BOYS WHO READ 👋</h2></div>
+      <div class="flavor-text">Many individuals have a bottom line for potential crushes. Luckily for Galex, our generation seems quite well-read. </div>
+
+      <!-- checking stuff -->
+      <script> 
+        const puzzle = "read" 
+      </script>
+      <input type="text" id="textBox" value="check your answer!">
+      <button onclick="check(puzzle)">check!</button>
+      <p class="check" id = "result"></p>
+      <p class="correct" id = "correctAnswer"><b></b></p>
+      <script src="../includes/check.js"></script>
+
+      <!-- puzzle body -->
+      <div class="puzzle">
+        <p><i>"Do you read?"</i></p>
+        <p><i>"Of course! Let me tell you about..."</i></p>
+        <p>
+          A whack old man be trippin and sees three of himself [2] <br>
+          Let me explain Death and Immortality to you in weird Caps and slant rhymes Too [6] <br>
+          Stacked man be simpin' [10] <br>
+          A great Regency romance , ironically, away from Iran [2] <br>
+          Lab babies remain loose in the juice, my man despairs [3] <br>
+          "What if we farmed children for their organs,,, jk jk,, unless?" [1] <br>
+          Girl's in the closet, never comes out [4] <br>
+          Dude rules by fear rather than love [5] <br>
+          Man simps for his entire life, is literally love-sick [1] <br>
+          A real whale of a time! [2] <br>
+          Oh bother, here we go again [4] <br>
+          Haunted house ft. the eldest daughter [2] <br>
+          The Beatles? Man, what a throwback to the 60's. [7] <br>
+          Nihilist boi is going thru it [1] <br>
+          Spiralling, trapped for air [4] <br>
+          High society France in the 19th century? Time to get lost in the sauce again! [6] <br>
+          Petulant boi gets 'round and 'round lost in the sauce [7] <br>
+          Little kid pulls an uno reverse, then learns his lesson [4] <br>
+          Aunties playing their usual tile game in SF [3] <br>
+          Linear narrative gets demolished by war and space [2] <br>
+          Cuffed lady plans a kickback then unpacks a soldier's suicide [1]
+          </p>
+      </div>
+      
+      <h2><a href="../index.html"><b>BACK TO HOME</b></a></h2>
+
+    <p id="secret-message" onclick="tellSecret()">click on me!</p>
+  </body>
+</html>

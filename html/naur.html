@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Naur What?</title>
+    <link rel="stylesheet" href="../includes/main.css">
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+    
+    <script>
+      function tellSecret() {
+        window.alert("  \\o/" + "\r\n" +
+         "   ( )     whee! you found the secret message!"
+        + "\r\n" +"   /\\     (this is not a puzzle)");
+      }
+    </script>
+
+  </head>
+
+  <body>
+    <div class="content">
+
+      <!-- navigation -->
+      <a id="top"></a>
+      <div class="nav">
+        <h3><a href="../index.html">GALEXX BDAY BASH!</a></h3>
+      </div>
+      <div class="nav"><h2>NAUR WHAT?</h2></div>
+
+      <!-- checking stuff -->
+      <p></p>
+      <script> 
+        const puzzle = "naur" 
+      </script>
+      <input type="text" id="textBox" value="check your answer!">
+      <button onclick="check(puzzle)">check!</button>
+      <p class="check" id = "result"></p>
+      <p class="correct" id = "correctAnswer"><b></b></p>
+      <script src="../includes/check.js"></script>
+
+      <!-- puzzle body -->
+      <div class="puzzle">
+          <img class="puz-image" src="../images/naur_what_A.png" alt="various drawings, part A">
+          <img class="puz-image" src="../images/naur_what_B.png" alt="various drawings, part B">
+        </div>
+
+      <h2><a href="../index.html"><b>BACK TO HOME</b></a></h2>
+
+    </div>
+
+    <p id="secret-message" onclick="tellSecret()">click on me!</p>
+  </body>
+</html>

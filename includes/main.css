@@ -1,0 +1,135 @@
+/* CSS file for example-04 index.html */
+
+/*imported fonts*/
+
+@font-face{
+  font-family: tradeWinds;
+  src: url(tradewinds.ttf);
+}
+
+@font-face{
+  font-family: bahnschrift;
+  src: url(BAHNSCHRIFT.TTF);
+}
+
+input {
+  font-family: "bahnschrift", monospace;
+  font-size: 16px;
+}
+
+button{
+  font-family: "bahnschrift", monospace;
+  font-size: 16px;
+}
+
+.check {
+  color: #fa1c41;
+}
+
+.correct {
+  color:  #2cdb00;
+  font-weight: bold;
+}
+
+.nav {
+  list-style-type: none;
+  text-align: center;
+  width: 85%;
+  height: 75px;
+  margin: auto;
+  font-family: 'bahnschrift', monospace;
+}
+
+.nav h1 {
+  font-family: 'Helvetica', monospace;
+  display: inline-block;
+  padding: 5 px;
+  font-size: 40px;
+}
+
+.nav h2 {
+  display: inline-block;
+  padding: 5 px;
+  font-size: 40px;
+}
+
+.nav h3 {
+  display: inline-block;
+  padding: 5px;
+  font-size: 25px;
+}
+
+.nav p{
+  font-size: 20px;
+}
+
+a:link, a:visited, a:active {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5b49ff;
+  text-decoration: none;
+}
+
+.content {
+  width: 750px;
+  margin: auto;
+  font-family: 'bahnschrift', monospace;
+  line-height: 1.5em;
+}
+
+.puzzle {
+  font-family: 'bahnschrift', monospace;
+  width: auto;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.puzzle h4{
+  font-weight: normal;
+  text-align: center;
+  font-size: 20px;
+}
+
+.puzzle li{
+  list-style-type: "✂ ";
+}
+
+.puzzle p{
+  font-size: 20px;
+}
+
+.puzzle pre{
+  font-family: 'bahnschrift', monospace;
+  text-align: left;
+  tab-size: 8;
+}
+
+.flavor-text {
+  text-align: center;
+  font-style: italic;
+  width: 750px;
+  margin: auto;
+  font-family: 'bahnschrift', monospace;
+  line-height: 1.5em;
+  font-size: 20px;
+}
+
+.sketch-title {
+  width: auto;
+  font-family: 'bahnschrift', monospace;
+}
+
+.title-image {
+  display: block;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.puz-image {
+  width: 150%;
+  margin-left: -180px;
+}
