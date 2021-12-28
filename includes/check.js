@@ -3,6 +3,7 @@ function check(puzName) {
         naur: "CRYINGANDCHUNDERING",
         lace: "LADYGODIVA",
         read: "CYRANO",
+        mun: "SHOOTINGSTAR",
     };
     // reset both correct and incorrect answers
     document.getElementById("result").innerHTML = "";
