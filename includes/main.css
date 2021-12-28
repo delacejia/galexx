@@ -22,6 +22,11 @@
   src: url(Overpass-VariableFont_wght.ttf);
 }
 
+@font-face {
+  font-family: orbitron;
+  src: url(Orbitron.ttf)
+}
+
 input {
   font-family: "overpass", monospace;
   font-size: 16px;
@@ -79,7 +84,17 @@ a:link, a:visited, a:active {
 }
 
 a:hover {
-  color: #5b49ff;
+  color: #78aae4;
+  text-decoration: none;
+}
+
+.vishruti a:hover {
+  color: pink;
+  text-decoration: none;
+}
+
+.michal a:hover {
+  color: rgb(117, 180, 154);
   text-decoration: none;
 }
 
@@ -148,4 +163,8 @@ a:hover {
 .puz-image {
   width: 150%;
   margin-left: -180px;
+}
+
+.zesty-font {
+  font-family: 'orbitron', monospace;
 }
